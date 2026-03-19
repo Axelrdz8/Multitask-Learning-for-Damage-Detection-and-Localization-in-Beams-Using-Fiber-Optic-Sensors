@@ -1,0 +1,18 @@
+{
+  "act_trunk": "swish",
+  "trunk_units_1": 96,
+  "trunk_units_2": 160,
+  "use_trunk_3": true,
+  "trunk_units_3": 64,
+  "trunk_dropout": 0.2,
+  "l2_weight": 0.0005,
+  "head_cls_units": 128,
+  "head_crack_units": 48,
+  "head_wear_units": 48,
+  "heads_dropout": 0.0,
+  "learning_rate": 0.0007526225036279279,
+  "w_cls": 1.0,
+  "w_crack": 2.0,
+  "w_wear": 1.5,
+  "batch_size": 48
+}

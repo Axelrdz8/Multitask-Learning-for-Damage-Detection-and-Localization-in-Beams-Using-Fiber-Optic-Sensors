@@ -1,0 +1,8 @@
+model,best_cv_mae,test_mae,test_rmse,test_r2,best_params,model_path
+KNN,0.18923768686751524,0.20085227033405595,0.4810902459899613,0.9229175244445419,"{'reg__metric': 'manhattan', 'reg__n_neighbors': 11, 'reg__p': 1, 'reg__weights': 'uniform'}",wear_reg_grid_models\best_KNN_wear_reg.pkl
+SVR,0.20499107732894095,0.2200790451809414,0.46118641945082056,0.9291637485912677,"{'reg__C': 100, 'reg__epsilon': 0.01, 'reg__gamma': 'scale', 'reg__kernel': 'rbf'}",wear_reg_grid_models\best_SVR_wear_reg.pkl
+MLP,0.2483431546638409,0.24700193566580614,0.40819157698896374,0.9445079680041298,"{'reg__activation': 'relu', 'reg__alpha': 0.01, 'reg__hidden_layer_sizes': (50, 100), 'reg__learning_rate': 'constant', 'reg__solver': 'adam'}",wear_reg_grid_models\best_MLP_wear_reg.pkl
+DecisionTree,0.27916666318972905,0.2870833287636439,0.8225975050665936,0.7746397445400482,"{'reg__ccp_alpha': 0.0, 'reg__criterion': 'absolute_error', 'reg__max_depth': 6, 'reg__max_features': 'sqrt', 'reg__min_samples_leaf': 5, 'reg__min_samples_split': 5, 'reg__splitter': 'best'}",wear_reg_grid_models\best_DecisionTree_wear_reg.pkl
+Lasso,0.8199693887184063,0.8203917518258095,0.9898491488285716,0.6736823398026094,{'reg__alpha': 0.0001},wear_reg_grid_models\best_Lasso_wear_reg.pkl
+Ridge,0.8198813994725545,0.8204283078511556,0.9898864760943311,0.6736577284247987,{'reg__alpha': 0.01},wear_reg_grid_models\best_Ridge_wear_reg.pkl
+ElasticNet,0.8202255893498659,0.8204438770810764,0.9901572548840789,0.6734791652186043,"{'reg__alpha': 0.001, 'reg__l1_ratio': 0.1}",wear_reg_grid_models\best_ElasticNet_wear_reg.pkl

@@ -1,0 +1,8 @@
+model,best_cv_mae,test_mae,test_rmse,test_r2,best_params,model_path
+KNN,0.16862689218286314,0.14431818037322072,0.45829889234420557,0.9479914290747901,"{'reg__metric': 'manhattan', 'reg__n_neighbors': 11, 'reg__p': 1, 'reg__weights': 'uniform'}",crack_reg_grid_models\best_KNN_crack_reg.pkl
+SVR,0.22056143933866412,0.24289672222854455,0.5168736045753067,0.933847537669973,"{'reg__C': 100, 'reg__epsilon': 0.01, 'reg__gamma': 'scale', 'reg__kernel': 'rbf'}",crack_reg_grid_models\best_SVR_crack_reg.pkl
+MLP,0.24607686167194814,0.24796131129066148,0.38227784495332084,0.9638144178886087,"{'reg__activation': 'relu', 'reg__alpha': 0.01, 'reg__hidden_layer_sizes': (50, 100), 'reg__learning_rate': 'constant', 'reg__solver': 'adam'}",crack_reg_grid_models\best_MLP_crack_reg.pkl
+DecisionTree,0.3173613918274926,0.3755503413475761,0.6978055505686966,0.8794280889144388,"{'reg__ccp_alpha': 0.0, 'reg__criterion': 'squared_error', 'reg__max_depth': 6, 'reg__max_features': 'sqrt', 'reg__min_samples_leaf': 5, 'reg__min_samples_split': 5, 'reg__splitter': 'best'}",crack_reg_grid_models\best_DecisionTree_crack_reg.pkl
+Ridge,1.5544697975118953,1.5348893399039905,1.776115042616994,0.21887688377896353,{'reg__alpha': 0.01},crack_reg_grid_models\best_Ridge_crack_reg.pkl
+Lasso,1.5545951435963314,1.5351115946968397,1.776045170052491,0.21893834151164382,{'reg__alpha': 0.0001},crack_reg_grid_models\best_Lasso_crack_reg.pkl
+ElasticNet,1.5559769840290147,1.5370250299572945,1.77532869687166,0.21956838951315327,"{'reg__alpha': 0.001, 'reg__l1_ratio': 0.9}",crack_reg_grid_models\best_ElasticNet_crack_reg.pkl
