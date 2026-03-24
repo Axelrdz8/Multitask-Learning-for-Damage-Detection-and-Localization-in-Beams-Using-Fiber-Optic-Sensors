@@ -1,6 +1,6 @@
 # Repository workflow
 
-This repository documents an experimental workflow for damage detection and localization in beams instrumented with fiber optic sensors.
+This repository documents an experimental workflow for damage detection and localization in beams instrumented with a optical fiber sensor.
 
 ## Workflow overview
 
