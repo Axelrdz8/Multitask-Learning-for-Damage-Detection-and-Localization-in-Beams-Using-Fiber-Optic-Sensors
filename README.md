@@ -49,8 +49,6 @@ Used for exploration and prior validation of signals.
 
 ### `build-dataset` subfolder
 
-This is the part that connects raw data with machine learning.
-
 - `build-dataset-csv.py`:
   main script of the repository. Traverses `beam_vibration_dataset`, extracts metadata from folder names, computes FFT, obtains the top 5 peaks, and generates spectral features such as `FC_Hz`, `FRMS_Hz`, `FRVF_Hz`, `m0`, `m1`, and `m2`.
 - `dataset_beam.csv`:
@@ -101,8 +99,6 @@ Replicates the previous scheme, but for wear localization.
 The idea is to decouple wear localization from general classification and measure how far a specialized model can go without multitask learning.
 
 ### `multitask-model` subfolder
-
-This is the part closest to the main objective of the repository.
 
 - `multitask-model.ipynb`:
   notebook that trains a multitask neural network with Keras/TensorFlow.
