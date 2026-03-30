@@ -104,6 +104,8 @@ The idea is to decouple wear localization from general classification and measur
 
 ### `multitask-model` subfolder
 
+<img width="684" height="514" alt="best_model" src="https://github.com/user-attachments/assets/d81ea7c6-2d5f-4fd5-9a1c-d4582e0d51ca" />
+
 - `multitask-model.ipynb`:
   notebook that trains a multitask neural network with Keras/TensorFlow.
 - `dataset_beam.csv`:
