@@ -2,6 +2,8 @@
 
 This repository documents an experimental workflow for damage detection and localization in beams instrumented with a optical fiber sensor.
 
+<img width="1023" height="835" alt="diagram" src="https://github.com/user-attachments/assets/93e10e6e-154c-4043-93cc-58406cd056f1" />
+
 ## Workflow overview
 
 - `beam_vibration_dataset` contains the raw measurements in CSV format, separated by structural condition.
