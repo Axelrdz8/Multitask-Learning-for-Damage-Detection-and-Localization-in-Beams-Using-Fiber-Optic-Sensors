@@ -21,7 +21,7 @@ This repository documents an experimental workflow for damage detection and loca
 
 This folder stores the original CSV files from vibration acquisitions.
 
-<img width="892" height="482" alt="dataset" src="https://github.com/user-attachments/assets/acb7149a-0c0f-4309-a925-0dfd79f67df3" />
+<img width="743" height="402" alt="dataset" src="https://github.com/user-attachments/assets/acb7149a-0c0f-4309-a925-0dfd79f67df3" />
 
 In total, the raw folder contains 1900 CSV files organized by damage mechanism:
 
