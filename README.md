@@ -3,7 +3,7 @@
 This repository documents an experimental workflow for damage detection and localization in beams instrumented with a optical fiber sensor.
 
 <img width="715" height="365" alt="sensor" src="https://github.com/user-attachments/assets/fd49b90a-00e4-46b3-ba1d-a17ebdc164dd" />
-<img width="615" height="502" alt="diagram" src="https://github.com/user-attachments/assets/e7ca40a1-ba97-41cb-9c9c-c131c7311ae2" />
+<img width="513" height="418" alt="diagram" src="https://github.com/user-attachments/assets/9818bbf7-6aec-4142-b768-4b6d5a0ae65e" />
 
 ## Workflow overview
 
