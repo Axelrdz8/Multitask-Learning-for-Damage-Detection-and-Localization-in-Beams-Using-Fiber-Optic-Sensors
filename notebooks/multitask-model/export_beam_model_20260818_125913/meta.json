@@ -1,0 +1,10 @@
+{
+  "n_features": 10,
+  "n_classes": 12,
+  "paths": {
+    "keras": "export_beam_model_20260818_125913\\model.keras"
+  },
+  "has_features": true,
+  "created_at": "20260818_125913",
+  "keras_version_hint": "Keras 3+ (usar .keras para load_model)."
+}
