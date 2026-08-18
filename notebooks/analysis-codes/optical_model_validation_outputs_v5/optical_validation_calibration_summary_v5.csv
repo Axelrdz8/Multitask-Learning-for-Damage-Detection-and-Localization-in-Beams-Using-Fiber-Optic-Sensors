@@ -1,0 +1,7 @@
+length_mm,accepted_frequency_signals,valid_beta_quality_signals,n_beta_calibration,n_independent_validation,calibrated_beta_s_inv,calibrated_zeta,beta_source
+50,50,35,5,45,4.359961011577475,0.0030347420451704815,experimental_temporal_modal_envelope
+60,50,37,5,45,3.723103201194192,0.0037317001739614656,experimental_temporal_modal_envelope
+70,50,42,5,45,3.504139553989522,0.0047805365305932475,experimental_temporal_modal_envelope
+80,50,36,5,45,2.258479918461747,0.0040243465728786645,experimental_temporal_modal_envelope
+90,50,46,5,45,1.7571367001097098,0.003962686687434052,experimental_temporal_modal_envelope
+100,50,45,5,45,1.6689097851222088,0.004646565123915492,experimental_temporal_modal_envelope

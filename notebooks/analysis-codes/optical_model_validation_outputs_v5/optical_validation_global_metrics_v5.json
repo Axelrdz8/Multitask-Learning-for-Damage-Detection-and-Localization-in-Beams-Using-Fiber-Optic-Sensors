@@ -1,0 +1,21 @@
+{
+  "beam_length_range_mm": [
+    50,
+    100
+  ],
+  "number_of_length_scenarios": 6,
+  "initial_acquisitions": 300,
+  "accepted_after_within_group_consistency_qc": 300,
+  "independent_spectral_validation_acquisitions": 270,
+  "frequency_statistics_source": "existing Figure 5 dataframe",
+  "frequency_mae_hz": 3.665233333333332,
+  "frequency_rmse_hz": 4.5456653143406855,
+  "frequency_mape_percent": 2.7756781734344056,
+  "frequency_r2": 0.9939974240633777,
+  "frequency_relative_error_min_percent": 1.4671109200343952,
+  "frequency_relative_error_max_percent": 3.92866811192928,
+  "overall_local_spectral_correlation_mean": 0.08768259604647816,
+  "overall_local_spectral_correlation_std": 0.17697350327250902,
+  "overall_local_spectral_nrmse_mean": 0.2560860471215464,
+  "overall_local_spectral_nrmse_std": 0.041605657248330985
+}
